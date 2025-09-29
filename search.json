@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "archival.html",
+    "href": "archival.html",
+    "title": "Building Sustainable Open-Source Dashboards",
+    "section": "",
+    "text": "PowerPoint slides, links, and additional content will all be linked to from this page ahead of the workshop."
+  },
+  {
+    "objectID": "archival.html#abstract",
+    "href": "archival.html#abstract",
+    "title": "Building Sustainable Open-Source Dashboards",
+    "section": "Abstract",
+    "text": "Abstract\nThis workshop teaches sustainable open-source dashboard development using free tools with a focus on long-term archival strategies. Participants learn about accessible, maintainable dashboards that survive project funding cycles through proper documentation, containerisation, and community-driven maintenance approaches, ensuring content remains available beyond initial development periods."
+  },
+  {
+    "objectID": "archival.html#description",
+    "href": "archival.html#description",
+    "title": "Building Sustainable Open-Source Dashboards",
+    "section": "Description",
+    "text": "Description\nThis intermediate-level workshop is aimed at attendees who have experience in building dashboards in R or Python, and presents strategies and ideas for long-term accessibility and preservation. The workshop will highlight different tools and strategies, and will include group discussions, and the development of a shared resource for future reference. Hopefully this workshop will generate new ideas and workflows for the community to use!\nWe will have interactive polls and Q&A, but will not be coding. You can use a laptop or a smartphone to interact with the polls."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Workshop content",
+    "section": "",
+    "text": "This site contains materials, additional resources, and slides for the workshops I am delivering at FOSS4G:UK, hosted in Leeds, 2025."
+  },
+  {
+    "objectID": "index.html#workshops",
+    "href": "index.html#workshops",
+    "title": "Workshop content",
+    "section": "Workshops",
+    "text": "Workshops\n\nWeb Accessibility 101: Making Research and Geospatial Applications Inclusive\nBuilding Sustainable Open-Source Dashboards: Archival Strategies for Long-Term Access"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Workshop content",
+    "section": "About me",
+    "text": "About me\nI am a Research Software Engineer at the University of Leeds in the UK, with a PhD in planetary science and geophysics. In my current role, I collaborate across a wide range of disciplines to enhance research through accessible computational tools and reproducible workflows.\n\nMy GitHub\nMy departmental page"
+  },
+  {
+    "objectID": "accessibility.html",
+    "href": "accessibility.html",
+    "title": "Web Accessibility 101",
+    "section": "",
+    "text": "PowerPoint slides, links, and additional content will all be linked to from this page ahead of the workshop."
+  },
+  {
+    "objectID": "accessibility.html#abstract",
+    "href": "accessibility.html#abstract",
+    "title": "Web Accessibility 101",
+    "section": "Abstract",
+    "text": "Abstract\nThis introductory workshop covers essential web accessibility principles for researchers creating public web applications, particularly geospatial tools. No prior accessibility experience required. Learn basic inclusive design practices, practical implementation techniques, and be inspired to put accessibility first when designing applications!"
+  },
+  {
+    "objectID": "accessibility.html#description",
+    "href": "accessibility.html#description",
+    "title": "Web Accessibility 101",
+    "section": "Description",
+    "text": "Description\nThis workshop is aimed at absolute beginners when it comes to accessible design; the content is very introductory and will centre “first steps” and the idea of web accessibility as a constant work in progress.\nWe will have interactive polls and Q&A, but will not be coding. You can use a laptop or a smartphone to interact with the polls."
+  },
+  {
+    "objectID": "accessibility.html#note-submitted-by-author-with-abstract",
+    "href": "accessibility.html#note-submitted-by-author-with-abstract",
+    "title": "Web Accessibility 101",
+    "section": "Note submitted by author with abstract",
+    "text": "Note submitted by author with abstract\nWhile this workshop is informed by some delivery team members’ experience, if there is another proposal for a workshop on accessibility being delivered by a disabled researcher, we would like to defer to them instead. However, in the absence of another session being proposed on web accessibility, we would be delighted to deliver this session."
+  }
+]
