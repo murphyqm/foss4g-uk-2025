@@ -10,7 +10,7 @@ website:
       - href: accessibility.qmd
         text: Web Accessibility 101
       - href: archival.qmd
-        text: Archival
+        text: "Building Sustainable Open-Source Dashboards"
 
 format:
   html:
