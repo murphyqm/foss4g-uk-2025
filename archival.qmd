@@ -1,0 +1,16 @@
+---
+title: "Building Sustainable Open-Source Dashboards"
+subtitle: Archival Strategies for Long-Term Access
+---
+
+PowerPoint slides, links, and additional content will all be linked to from this page ahead of the workshop.
+
+## Abstract
+
+This workshop teaches sustainable open-source dashboard development using free tools with a focus on long-term archival strategies. Participants learn about accessible, maintainable dashboards that survive project funding cycles through proper documentation, containerisation, and community-driven maintenance approaches, ensuring content remains available beyond initial development periods.
+
+## Description
+
+This intermediate-level workshop is aimed at attendees who have experience in building dashboards in R or Python, and presents strategies and ideas for long-term accessibility and preservation. The workshop will highlight different tools and strategies, and will include group discussions, and the development of a shared resource for future reference. Hopefully this workshop will generate new ideas and workflows for the community to use!
+
+We will have interactive polls and Q&A, but will not be coding. You can use a laptop or a smartphone to interact with the polls.

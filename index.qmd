@@ -1,0 +1,18 @@
+---
+title: "Workshop content"
+---
+
+This site contains materials, additional resources, and slides for the workshops I am delivering at FOSS4G:UK, hosted in Leeds, 2025.
+
+## Workshops
+
+- [Web Accessibility 101: Making Research and Geospatial Applications Inclusive](accessibility.qmd)
+- [Building Sustainable Open-Source Dashboards: Archival Strategies for Long-Term Access](archival.qmd)
+
+
+## About me
+
+I am a Research Software Engineer at the University of Leeds in the UK, with a PhD in planetary science and geophysics. In my current role, I collaborate across a wide range of disciplines to enhance research through accessible computational tools and reproducible workflows.
+
+- [My GitHub](https://github.com/murphyqm)
+- [My departmental page](https://arc.leeds.ac.uk/profiles/maeve-murphy-quinlan/)

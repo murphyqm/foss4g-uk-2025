@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+$link-color: #572B6F;
+$text-muted: #0B5126;
+
+/*-- scss:rules --*/
+
+.layout-example {
+  background: $gray-500;
+  color: $white;
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: $font-family-monospace;
+  font-size: .875em;
+  font-weight: 600;
+  padding-top: 1em;
+  border-radius: 3px;
+}
+
+.left {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.right {
+  text-align: right;
+  padding-right: 1em;
+}
+
+
+.navbar .aa-DetachedSearchButton::after {
+  color: #545555;
+}
+

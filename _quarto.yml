@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "FOSS4G: Maeve Murphy Quinlan"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: accessibility.qmd
+        text: Web Accessibility 101
+      - href: archival.qmd
+        text: Archival
+
+format:
+  html:
+    respect-user-color-scheme: true
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    css: styles.css
+    toc: true
+
+highlight-style: a11y
+
