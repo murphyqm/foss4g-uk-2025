@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - "accessibility/html/fonts.html"
 
 website:
   title: "FOSS4G: Maeve Murphy Quinlan"

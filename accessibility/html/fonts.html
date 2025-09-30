@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Example font sizes</title>
+</head>
+<body style="font-family: sans-serif; padding: 20px">
+    <header>
+        <h1>Font Size Accessibility Examples</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2 style="font-size: 24px;">Using pixel sizing</h2>
+            <p style="font-size: 12px;">
+                This paragraph uses a size 12px font. This fails basic WCAG requirements for being too small. Additionally, it cannot be changed by the user via browser font-size settings.
+            </p>
+
+            <p style="font-size: 16px;">
+                While this paragraph uses a size 16px font (as recommended in WCAG), because it uses pixel sizing it will override the users' font settings.
+            </p>
+
+            <p style="font-size: 20px;">
+                This paragraph uses a 20px font size. While larger font sizes can be useful and improve readability, it is better to leave this to users to decide for themselves.
+            </p>
+        </section>
+
+        <section>
+            <h2>Using rem sizing</h2>
+            <p style="font-size: 0.9rem;">
+                This paragraph uses a 0.9rem font size, which makes it a little smaller than the default browser fontsize. It's usually not a good idea to go below the default fontsize.
+            </p>
+
+            <p style="font-size: 1rem;">
+                While this paragraph uses a 1rem font size, meaning it is set to the default browser fontsize.
+            </p>
+
+            <p style="font-size: 1.5rem;">
+                This paragraph uses a 1.5rem fontsize. Larger fonts can be used to highlight short snippets of text (like in headings, pull quotes, etc.).
+            </p>
+        </section>
+
+      
+    </main>
+</body>
+</html>
