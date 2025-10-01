@@ -247,6 +247,15 @@ ul.task-list li input[type="checkbox"] {
   <a href="#main-content" class="page__content-skip-link">Skip to main content</a>
 </div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  const toggleButton = document.querySelector('.navbar-toggler[role="menu"]');
+  if (toggleButton) {
+    toggleButton.removeAttribute('role');
+  }
+});
+</script>
+
 
 <link rel="stylesheet" href="styles.css">
 
