@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Tab Focus Accessibility Problems</title>
+</head>
+<body style="font-family: sans-serif; padding: 20px">
+    <header>
+        <h1>Tab Focus Accessibility Problems</h1>
+        <p>Try clicking the elements with your mouse, then try tabbing through with your keyboard.</p>
+    </header>
+    
+    <main>
+        <!-- Good: This button is focusable, but other elements have broken tab order -->
+        <button>Element 1</button>
+
+        </br>
+        
+        <!-- BAD: Div styled as button but not focusable -->
+        <div style="background: #007bff; color: white; padding: 8px 16px; margin: 10px 0; cursor: pointer; display: inline-block; border-radius: 4px;" onclick="alert('Clicked!')">
+            Element 2
+        </div>
+
+        </br>
+        
+        <!-- BAD: Link that goes nowhere and breaks tab orderwith tabindex="2" -->
+        <a href="#" tabindex="2" onclick="return false;" style="display: block; margin: 10px 0;">
+            Element 3
+        </a>
+
+        </br>
+        
+        <!-- BAD: Interactive element with tabindex="-1" -->
+        <button tabindex="-1" style="margin: 10px 0;">
+            Element 4
+        </button>
+
+        </br>
+        
+        <!-- BAD: Span made "interactive" but not keyboard accessible -->
+        <span style="background: #28a745; color: white; padding: 8px 16px; margin: 10px; cursor: pointer; display: inline-block; border-radius: 4px;" onclick="alert('Span clicked!')">
+            Element 5
+        </span>
+
+        </br>
+        
+        <!-- BAD: Input without label -->
+        <input type="text" placeholder="Element 6" style="margin: 10px 0; display: block;">
+        </br>
+        
+        <!-- BAD: Custom button that's not keyboard accessible -->
+        <div style="border: 1px solid #4b2424; padding: 8px; margin: 10px 0; cursor: pointer; background: white;" onclick="this.style.background = this.style.background === 'lightgray' ? 'white' : 'lightgray'">
+            Element 7
+        </div>
+        </br>
+        
+        <!-- Good: Properly focusable elements for comparison -->
+        <label for="good-input" style="display: block; margin-top: 20px;">Element 8</label>
+        <input type="text" placeholder="Type here" id="good-input" style="margin: 5px 0;">
+        </br>
+        
+        <a href="#main" style="display: block; margin: 10px 0;">I'm a proper link</a>
+        </br>
+        
+        <button style="margin: 10px 0;">I'm another proper button</button>
+        </br>
+    </main>
+</body>
+</html>

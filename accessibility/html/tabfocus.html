@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Tab Focus Accessibility Problems: Answers</title>
+</head>
+<body style="font-family: sans-serif; padding: 20px">
+    <header>
+        <h1>Tab Focus Accessibility Problems</h1>
+        <p>Each button has some text describing the issues with it.</p>
+    </header>
+    
+    <main>
+        <h2>The broken buttons/elements</h2>
+        <!-- Good: This button is focusable -->
+        <p>Good and bad: This button is focusable, but other elements have broken tab order. This element alone would be good if the rest of the elements were fixed.</p>
+        <button>Good (with caveat)</button>
+        </br>
+        </br>
+        </br>
+        
+        <!-- BAD: Div styled as button but not focusable -->
+        <p>Bad: Div styled as button but not focusable</p>
+        <div style="background: #007bff; color: white; padding: 8px 16px; margin: 10px 0; cursor: pointer; display: inline-block; border-radius: 4px;" onclick="alert('Clicked!')">
+            Bad
+        </div>
+        </br>
+        </br>
+        </br>
+
+        
+        <!-- BAD: Link that goes nowhere and breaks tab orderwith tabindex="2" -->
+        <p>Bad: breaks tab order with tabindex="2" (which makes it the first thing that's focusable), and link goes nowhere</p>
+        <a href="#" tabindex="2" onclick="return false;" style="display: block; margin: 10px 0;">
+            Bad
+        </a>
+        </br>
+        </br>
+        </br>
+        
+        <!-- BAD: Interactive element with tabindex="-1" -->
+        <p>Bad: hidden/removed from tab order with tabindex="-1", so not focusable</p> 
+        <button tabindex="-1" style="margin: 10px 0;">
+            Bad
+        </button>
+        </br>
+        </br>
+        </br>
+        
+        <!-- BAD: Span made "interactive" but not keyboard accessible -->
+        <p>Bad: span styled as an interactive element, but is not focusable/keyboard accessible.</p>
+        <span style="background: #28a745; color: white; padding: 8px 16px; margin: 10px; cursor: pointer; display: inline-block; border-radius: 4px;" onclick="alert('Span clicked!')">
+            Bad
+        </span>
+        </br>
+        </br>
+        </br>
+        
+        <!-- BAD: Input without label -->
+        <p>Bad: inputs should have a "label" attached to them, but it is keyboard accessible.</p>
+        <input type="text" placeholder="Bad - trick question" style="margin: 10px 0; display: block;">
+        </br>
+        </br>
+        </br>
+        
+        <!-- BAD: Custom button that's not keyboard accessible -->
+        <p>Bad: custom button made with a div that's not keyboard accessible.</p>
+        <div style="border: 1px solid #4b2424; padding: 8px; margin: 10px 0; cursor: pointer; background: white;" onclick="this.style.background = this.style.background === 'lightgray' ? 'white' : 'lightgray'">
+            Bad
+        </div>
+        </br>
+        </br>
+        </br>
+
+        <h2>Good buttons/elements</h2>
+        
+        <!-- Good: Properly focusable elements for comparison -->
+        <label for="good-input" style="display: block; margin-top: 20px;">Good input with label:</label>
+        <input type="text" id="good-input" style="margin: 5px 0;">
+        </br>
+        </br>
+        </br>
+        
+        <a href="#main" style="display: block; margin: 10px 0;">I'm a proper link</a>
+        </br>
+        </br>
+        </br>
+        
+        <button style="margin: 10px 0;">I'm another proper button</button>
+        </br>
+
+        <h2>Key take-away</h2>
+        <p>Stick to standard buttons/elements/inputs as much as possible.</p>
+        <p>If you make something custom with a div or a span, ensure you make it keyboard navigable.</p>
+    </main>
+</body>
+</html>
