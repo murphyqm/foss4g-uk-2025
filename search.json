@@ -4,7 +4,7 @@
     "href": "archival.html",
     "title": "Building Sustainable Open-Source Dashboards",
     "section": "",
-    "text": "PowerPoint slides, links, and additional content will all be linked to from this page ahead of the workshop."
+    "text": "The workshop notes will be linked to from this landing page."
   },
   {
     "objectID": "archival.html#abstract",
@@ -46,34 +46,20 @@
     "href": "accessibility.html",
     "title": "Web Accessibility 101",
     "section": "",
-    "text": "PowerPoint slides, links, and additional content will all be linked to from this page ahead of the workshop."
+    "text": "This introductory workshop covers essential web accessibility principles for researchers creating public web applications, particularly geospatial tools. No prior accessibility experience required. Learn basic inclusive design practices, practical implementation techniques, and be inspired to put accessibility first when designing applications!\nThis workshop is aimed at absolute beginners when it comes to accessible design; the content is very introductory and will centre “first steps” and the idea of web accessibility as a constant work in progress.\nWe will have interactive polls and Q&A, but will not be coding. You can use a laptop or a smartphone to interact with the polls."
   },
   {
-    "objectID": "accessibility.html#abstract",
-    "href": "accessibility.html#abstract",
+    "objectID": "accessibility.html#examples",
+    "href": "accessibility.html#examples",
     "title": "Web Accessibility 101",
-    "section": "Abstract",
-    "text": "Abstract\nThis introductory workshop covers essential web accessibility principles for researchers creating public web applications, particularly geospatial tools. No prior accessibility experience required. Learn basic inclusive design practices, practical implementation techniques, and be inspired to put accessibility first when designing applications!"
-  },
-  {
-    "objectID": "accessibility.html#description",
-    "href": "accessibility.html#description",
-    "title": "Web Accessibility 101",
-    "section": "Description",
-    "text": "Description\nThis workshop is aimed at absolute beginners when it comes to accessible design; the content is very introductory and will centre “first steps” and the idea of web accessibility as a constant work in progress.\nWe will have interactive polls and Q&A, but will not be coding. You can use a laptop or a smartphone to interact with the polls."
-  },
-  {
-    "objectID": "accessibility.html#note-submitted-by-author-with-abstract",
-    "href": "accessibility.html#note-submitted-by-author-with-abstract",
-    "title": "Web Accessibility 101",
-    "section": "Note submitted by author with abstract",
-    "text": "Note submitted by author with abstract\nWhile this workshop is informed by some delivery team members’ experience, if there is another proposal for a workshop on accessibility being delivered by a disabled researcher, we would like to defer to them instead. However, in the absence of another session being proposed on web accessibility, we would be delighted to deliver this session."
+    "section": "Examples",
+    "text": "Examples\n\nFont size (opens in a new tab)\nKeyboard navigation test (opens in a new tab)\nKeyboard navigation answers (opens in a new tab)\nBad design exercise (opens in a new tab). WARNING - slow flashing text."
   },
   {
     "objectID": "accessibility.html#slides",
     "href": "accessibility.html#slides",
     "title": "Web Accessibility 101",
     "section": "Slides",
-    "text": "Slides"
+    "text": "Slides\n\nPowerPoint (will directly download)\nPDF (opens in a new tab)"
   }
 ]
