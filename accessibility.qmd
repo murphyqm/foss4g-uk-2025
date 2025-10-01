@@ -22,3 +22,5 @@ While this workshop is informed by some delivery team members’ experience, if 
 # Examples
 
 - [Font size (opens in a new tab)](accessibility/html/fonts.html){target="_blank"}
+- [Keyboard navigation test (opens in a new tab)](accessibility/html/tabfocus_test.html){target="_blank"}
+- [Keyboard navigation answers (opens in a new tab)](accessibility/html/tabfocus.html){target="_blank"}
