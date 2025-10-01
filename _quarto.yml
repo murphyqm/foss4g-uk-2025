@@ -6,6 +6,7 @@ project:
 website:
   title: "FOSS4G: Maeve Murphy Quinlan"
   navbar:
+    logo: false
     left:
       - href: index.qmd
         text: Home
