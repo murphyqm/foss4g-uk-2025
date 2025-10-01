@@ -1,5 +1,10 @@
 /* css styles */
 
+/* Remove incorrect menu role from navbar toggler */
+.navbar-toggler[role="menu"] {
+  /* This won't remove the attribute, but you can use JS for that */
+}
+
 
 .navbar .quarto-color-scheme-toggle::after {
   content: " Toggle Theme";
