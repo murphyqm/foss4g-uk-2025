@@ -3,7 +3,7 @@ title: "Building Sustainable Open-Source Dashboards"
 subtitle: Archival Strategies for Long-Term Access
 ---
 
-PowerPoint slides, links, and additional content will all be linked to from this page ahead of the workshop.
+The workshop notes will be linked to from this landing page.
 
 ## Abstract
 
