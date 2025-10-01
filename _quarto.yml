@@ -6,6 +6,8 @@ project:
 website:
   title: "FOSS4G: Maeve Murphy Quinlan"
   navbar:
+    logo: "logo.png"
+    logo-alt: "Logo, with a cartoon blue cloud with electronic circuits"
     left:
       - href: index.qmd
         text: Home
