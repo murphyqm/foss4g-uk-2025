@@ -24,3 +24,4 @@ While this workshop is informed by some delivery team members’ experience, if 
 - [Font size (opens in a new tab)](accessibility/html/fonts.html){target="_blank"}
 - [Keyboard navigation test (opens in a new tab)](accessibility/html/tabfocus_test.html){target="_blank"}
 - [Keyboard navigation answers (opens in a new tab)](accessibility/html/tabfocus.html){target="_blank"}
+- [Bad design exercise (opens in a new tab). WARNING - slow flashing text.](accessibility/html/bad-design.html){target="_blank"}

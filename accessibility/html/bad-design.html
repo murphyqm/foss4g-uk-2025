@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Missing viewport meta tag - Issue #1: Mobile accessibility -->
+    <title>Terrible design</title>
+</head>
+<body style="font-family: sans-serif; padding: 20px; background-color: #f0f0f0;">
+    <header>
+        <!-- Issue #2: Skipped heading levels (h1 to h4) -->
+        <h4 style="color: #cccccc; font-size: 14px;">How many accessibility issues can you find?</h4>
+        <!-- Issue #3: Poor color contrast - light gray on light background -->
+    </header>
+    
+    <main>
+        <!-- Issue #4: Non-semantic HTML - using div instead of nav -->
+        <div style="margin: 20px 0;">
+            <!-- Issue #5: Links with no descriptive text -->
+            <a href="#" style="color: #999999;">Click here</a> | 
+            <a href="#" style="color: #999999;">More info</a> | 
+            <a href="#" style="color: #999999;">Read more</a>
+            <!-- Issue #6: More poor contrast -->
+        </div>
+
+        <!-- Issue #7: Missing alt text on decorative/informational image -->
+        <img src="../../logo.png" style="float: right; margin-left: 10px;">
+
+        <!-- Issue #8: Text that's too small -->
+        <p style="font-size: 10px; line-height: 1.1; color: #666666;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <!-- Issue #9: Form with no labels -->
+        <form style="background-color: #e0e0e0; padding: 15px; margin: 20px 0;">
+            <input type="text" placeholder="Name" style="font-size: 11px; padding: 2px;">
+            <input type="email" placeholder="Email" style="font-size: 11px; padding: 2px;">
+            <!-- Issue #10: Button with no accessible name -->
+            <button type="submit" style="background-color: #dddddd; border: none; padding: 3px 6px; font-size: 10px; color: #888888;">→</button>
+        </form>
+
+        <!-- Issue #11: Table with no headers or caption -->
+        <table style="border-collapse: collapse; font-size: 11px;">
+            <tr style="background-color: #f5f5f5;">
+                <td style="border: 1px solid #ddd; padding: 4px; color: #999999;">Jan</td>
+                <td style="border: 1px solid #ddd; padding: 4px; color: #999999;">Feb</td>
+                <td style="border: 1px solid #ddd; padding: 4px; color: #999999;">Mar</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 4px; color: #aaaaaa;">125</td>
+                <td style="border: 1px solid #ddd; padding: 4px; color: #aaaaaa;">143</td>
+                <td style="border: 1px solid #ddd; padding: 4px; color: #aaaaaa;">156</td>
+            </tr>
+        </table>
+
+        <!-- Issue #12: Using color alone to convey information -->
+        <p style="font-size: 12px; margin-top: 20px;">
+            Status indicators: 
+            <span style="color: #ff0000;">●</span> Critical
+            <span style="color: #ffaa00;">●</span> Warning  
+            <span style="color: #00ff00;">●</span> Good
+        </p>
+
+        <!-- Issue #13: Low contrast interactive elements -->
+        <div style="margin: 20px 0;">
+            <!-- Issue #14: Links that don't look like links -->
+            <span style="color: #bbbbbb; text-decoration: underline; cursor: pointer;">Important link</span>
+            <br><br>
+            <!-- Issue #15: Inaccessible custom dropdown -->
+            <div style="position: relative; display: inline-block;">
+                <div onclick="toggleDropdown()" style="background-color: #eeeeee; padding: 5px 10px; font-size: 11px; color: #999999; border: 1px solid #ddd; cursor: pointer;">
+                    Select option ▼
+                </div>
+                <div id="dropdown-menu" style="display: none; position: absolute; top: 100%; left: 0; background-color: #f9f9f9; min-width: 160px; border: 1px solid #ddd; z-index: 1;">
+                    <div onclick="selectOption('Option 1')" style="padding: 8px 12px; cursor: pointer; font-size: 11px; color: #999999;">Option 1</div>
+                    <div onclick="selectOption('Option 2')" style="padding: 8px 12px; cursor: pointer; font-size: 11px; color: #999999;">Option 2</div>
+                    <div onclick="selectOption('Option 3')" style="padding: 8px 12px; cursor: pointer; font-size: 11px; color: #999999;">Option 3</div>
+                </div>
+            </div>
+
+            <script>
+            function toggleDropdown() {
+                var menu = document.getElementById('dropdown-menu');
+                menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+            }
+
+            function selectOption(option) {
+                document.querySelector('[onclick="toggleDropdown()"]').innerHTML = option + ' ▼';
+                document.getElementById('dropdown-menu').style.display = 'none';
+            }
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function(event) {
+                var dropdown = event.target.closest('[style*="position: relative"]');
+                if (!dropdown) {
+                    document.getElementById('dropdown-menu').style.display = 'none';
+                }
+            });
+</script>
+        </div>
+
+        <!-- Issue #16: Text with fixed width that doesn't reflow -->
+        <div style="width: 200px; overflow: hidden; font-size: 11px; color: #888888;">
+            This text is in a fixed-width container; what might happen if the user needs to zoon or has different font-size preferences?
+        </div>
+
+        <!-- Issue #17: Moving/flashing content without user control -->
+        <div style="animation: blink 2s infinite; color: #999999; font-size: 12px; margin: 20px 0;">
+            ⚠️ Important flashing announcement!
+        </div>
+
+        <style>
+            /* Issue #18: CSS that breaks zoom functionality */
+            @keyframes blink {
+                0%, 50% { opacity: 1; }
+                51%, 100% { opacity: 0; }
+            }
+            
+            /* Issue #19: Barely visible focus indicators */
+            *:focus {
+                outline: 1px solid #cccccc !important;
+            }
+        </style>
+
+        <!-- Issue #20: Empty link -->
+        <p><a href="#" style="color: #cccccc;"></a></p>
+
+    </main>
+
+    <!-- Issue #21: Missing footer/landmark structure -->
+</body>
+</html>
+
