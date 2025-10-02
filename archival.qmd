@@ -17,4 +17,4 @@ We will have interactive polls and Q&A, but will not be coding. You can use a la
 
 ## Content
 
-- [Workshop notes](murphyqm.github.io/archival-strategies/)
+- [Workshop notes](https://murphyqm.github.io/archival-strategies/)
